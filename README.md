@@ -32,3 +32,6 @@ Stores all the docker images used by the pods. The pipelines run by the runners 
 
 ### AWS S3
 Bucket with files used by system (files, documents, static web pages...) 
+
+### Database
+The database stores all the data from the micro services in the Pods. It can be in another VPC paired with visibility from the VPC of the system. 
